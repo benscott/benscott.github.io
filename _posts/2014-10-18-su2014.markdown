@@ -1,12 +1,22 @@
 ---
 layout: post
-title:  "Crowdsourcing the collection!"
+title:  "Crowdsourcing the collection - SU2014"
 date:   2014-10-18 16:18:38
 categories: crowdsourcing open-science natural-history-museum
 ---
-<p>At this year's Science Uncovered.</p>
 <figure>
   <img src="{{ site.baseurl }}/assets/beetles.jpg" alt="The Pulpit Rock">
   <figcaption>Jewel Tones: Green - Helena Maratheftis</figcaption>
 </figure>
-</p></p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan vitae ex eget vulputate. Nulla egestas magna sit amet dolor tempus, vitae faucibus est lacinia. Nullam eget quam consequat, mattis velit sed, dictum massa. In eu enim tortor. Maecenas finibus elit at justo auctor, ac euismod sapien ornare. Vivamus eu diam justo. Ut finibus arcu vel orci semper, ac mattis lorem accumsan. In hac habitasse platea dictumst.
+
+Etiam mollis molestie tellus, in tincidunt massa vulputate ac. Morbi metus metus, consectetur non ligula eget, posuere consectetur tortor. Curabitur turpis nulla, malesuada non tincidunt vitae, bibendum sed leo. Sed ultrices tincidunt viverra. Phasellus lobortis lobortis elementum. Sed bibendum efficitur eros, at facilisis orci pulvinar at. Etiam et dapibus velit, non aliquam purus.
+
+Ut varius vulputate erat, et posuere nulla fermentum quis. Mauris molestie tempus nibh tincidunt pulvinar. Praesent suscipit dapibus libero, sit amet rutrum mi sollicitudin et. In sed venenatis ligula. Morbi vel accumsan libero. Nulla eu ornare velit. Donec quis porttitor urna. Aenean quis magna placerat ligula convallis consequat id quis tellus. Mauris libero nunc, lobortis non tristique nec, auctor a magna. Phasellus lobortis feugiat ligula vel congue.
+
+Donec at sem sit amet lacus tristique interdum. Suspendisse vitae euismod purus. Proin ac condimentum tellus. Duis elementum sem dolor, id lobortis nibh imperdiet nec. Praesent rhoncus, neque ac consequat hendrerit, felis orci dapibus ante, non elementum tellus ipsum id erat. Quisque sit amet elementum arcu. Praesent suscipit interdum rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam at tellus volutpat, volutpat dui eu, porttitor nibh.
+
+
+
+
+
