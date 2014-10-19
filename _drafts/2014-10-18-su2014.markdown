@@ -1,7 +1,0 @@
----
-layout: post
-title:  "Crowdsourcing the collection!"
-date:   2014-10-18 16:18:38
-categories: crowdsourcing open-science natural-history-museum
----
-At this year's Science Uncovered.

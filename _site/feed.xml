@@ -2,32 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ben Scott</title>
-    <description>&lt;p&gt;Welcome to my blog, a collection of thoughts and musings on open data, science, music and visualisations.&lt;/p&gt; &lt;p&gt;I&#39;m lead architect of the Natural History Museum&#39;s Open Data Portal.&lt;/p&gt;
+    <description>&lt;p&gt;Some thoughts and ramblings on data, science, music and digital openness.&lt;/p&gt; &lt;p&gt;Currently lead architect of the Natural History Museum&#39;s Data Portal.&lt;/p&gt;
 </description>
-    <link>http://benscott.co.uk/</link>
-    <atom:link href="http://benscott.co.uk/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 19 Oct 2014 16:24:06 +0100</pubDate>
-    <lastBuildDate>Sun, 19 Oct 2014 16:24:06 +0100</lastBuildDate>
+    <link>http://www.benscott.co.uk/</link>
+    <atom:link href="http://www.benscott.co.uk/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 19 Oct 2014 19:15:22 +0100</pubDate>
+    <lastBuildDate>Sun, 19 Oct 2014 19:15:22 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Welcome!</title>
-        <description>&lt;p&gt;Welcome to my new blog. &lt;/p&gt;
+        <description>&lt;figure&gt;
+  &lt;img src=&quot;/assets/beetles.jpg&quot; alt=&quot;The Pulpit Rock&quot; /&gt;
+  &lt;figcaption&gt;Jewel Tones: Green - Helena Maratheftis&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Welcome to my new blog.&lt;/p&gt;
 </description>
         <pubDate>Sat, 18 Oct 2014 17:18:38 +0100</pubDate>
-        <link>http://benscott.co.uk/2014/10/18/welcome.html</link>
-        <guid isPermaLink="true">http://benscott.co.uk/2014/10/18/welcome.html</guid>
+        <link>http://www.benscott.co.uk/2014/10/18/welcome.html</link>
+        <guid isPermaLink="true">http://www.benscott.co.uk/2014/10/18/welcome.html</guid>
         
         
       </item>
     
       <item>
         <title>Crowdsourcing the collection!</title>
-        <description>&lt;p&gt;At this year’s Science Uncovered.&lt;/p&gt;
+        <description>&lt;p&gt;At this year&#39;s Science Uncovered.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;/assets/beetles.jpg&quot; alt=&quot;The Pulpit Rock&quot; /&gt;
+  &lt;figcaption&gt;Jewel Tones: Green - Helena Maratheftis&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;&amp;lt;/p&amp;gt;&amp;lt;/p&amp;gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 18 Oct 2014 17:18:38 +0100</pubDate>
-        <link>http://benscott.co.uk/crowdsourcing/open-science/natural-history-museum/2014/10/18/2014-10-18-su2014.html</link>
-        <guid isPermaLink="true">http://benscott.co.uk/crowdsourcing/open-science/natural-history-museum/2014/10/18/2014-10-18-su2014.html</guid>
+        <link>http://www.benscott.co.uk/crowdsourcing/open-science/natural-history-museum/2014/10/18/su2014.html</link>
+        <guid isPermaLink="true">http://www.benscott.co.uk/crowdsourcing/open-science/natural-history-museum/2014/10/18/su2014.html</guid>
         
         
         <category>crowdsourcing</category>

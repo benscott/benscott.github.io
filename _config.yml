@@ -2,10 +2,10 @@
 title: Ben Scott
 email: ben@benscott.co.uk
 description: > # this means to ignore newlines until "baseurl:"
-  <p>Welcome to my blog, a collection of thoughts and musings on open data, science, music and visualisations.</p>
-  <p>I'm lead architect of the Natural History Museum's Open Data Portal.</p>
+  <p>Some thoughts and ramblings on data, science, music and digital openness.</p>
+  <p>Currently lead architect of the Natural History Museum's Data Portal.</p>
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://benscott.co.uk" # the base hostname & protocol for your site
+url: "http://www.benscott.co.uk" # the base hostname & protocol for your site
 twitter_username: benjaminscott
 github_username:  benscott
 drupal_id: 149339

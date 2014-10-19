@@ -1,10 +1,12 @@
 ---
 layout: post
-title:  "Welcome!"
+title:  "Crowdsourcing the collection!"
 date:   2014-10-18 16:18:38
+categories: crowdsourcing open-science natural-history-museum
 ---
+<p>At this year's Science Uncovered.</p>
 <figure>
   <img src="{{ site.baseurl }}/assets/beetles.jpg" alt="The Pulpit Rock">
   <figcaption>Jewel Tones: Green - Helena Maratheftis</figcaption>
 </figure>
-<p>Welcome to my new blog.</p>
+</p></p>
