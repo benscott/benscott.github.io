@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "version": "0.0.0",
+  "dependencies": {
+    "bootstrap": "latest"
+  },
+  "authors": [
+    "benscott <ben@benscott.co.uk>"
+  ],
+  "license": "MIT",
+  "homepage": "benscott.co.uk",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
