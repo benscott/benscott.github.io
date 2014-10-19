@@ -2,16 +2,14 @@
 title: Ben Scott
 email: ben@benscott.co.uk
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  <p>Welcome to my blog, a collection of thoughts and musings on open data, science, music and visualisations.</p>
+  <p>I'm lead architect of the Natural History Museum's Open Data Portal (launching Dec 2014)</p>
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://benscott.co.uk" # the base hostname & protocol for your site
 twitter_username: benjaminscott
 github_username:  benscott
 
 exclude:
-  - "bower_components"
   - "bower.json"
 
 # Build settings

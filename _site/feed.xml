@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ben Scott</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>&lt;p&gt;Welcome to my blog, a collection of thoughts and musings on open data, science, music and visualisations.&lt;/p&gt; &lt;p&gt;I&#39;m lead architect of the Natural History Museum&#39;s Open Data Portal (launching Dec 2014)&lt;/p&gt;
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 19 Oct 2014 13:23:53 +0100</pubDate>
-    <lastBuildDate>Sun, 19 Oct 2014 13:23:53 +0100</lastBuildDate>
+    <link>http://benscott.co.uk/</link>
+    <atom:link href="http://benscott.co.uk/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 19 Oct 2014 15:02:22 +0100</pubDate>
+    <lastBuildDate>Sun, 19 Oct 2014 15:02:22 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Sat, 18 Oct 2014 17:18:38 +0100</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2014/10/18/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/10/18/welcome-to-jekyll.html</guid>
+        <link>http://benscott.co.uk/jekyll/update/2014/10/18/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://benscott.co.uk/jekyll/update/2014/10/18/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -56,8 +56,8 @@
 
 </description>
         <pubDate>Sat, 18 Oct 2014 17:18:38 +0100</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2014/10/18/su2014.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/10/18/su2014.html</guid>
+        <link>http://benscott.co.uk/jekyll/update/2014/10/18/su2014.html</link>
+        <guid isPermaLink="true">http://benscott.co.uk/jekyll/update/2014/10/18/su2014.html</guid>
         
         
         <category>jekyll</category>

@@ -2,7 +2,8 @@
   "name": "blog",
   "version": "0.0.0",
   "dependencies": {
-    "bootstrap": "latest"
+    "bootstrap": "latest",
+    "font-awesome": "latest"
   },
   "authors": [
     "benscott <ben@benscott.co.uk>"
