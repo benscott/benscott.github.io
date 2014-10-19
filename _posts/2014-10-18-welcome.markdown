@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "Welcome!"
+date:   2014-10-18 16:18:38
+---
+Welcome to my new blog. 
