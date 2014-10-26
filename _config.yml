@@ -2,8 +2,8 @@
 title: Ben Scott
 email: ben@benscott.co.uk
 description: > # this means to ignore newlines until "baseurl:"
-  <p>Some thoughts and ramblings on data, science, music and digital openness.</p>
-  <p>Currently lead architect of the Natural History Museum's Data Portal.</p>
+  <p>Lead architect of the Natural History Museum's Data Portal.</p>
+  <p>Thoughts on open data, open source, science and music.</p>
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.benscott.co.uk" # the base hostname & protocol for your site
 twitter_username: benjaminscott
