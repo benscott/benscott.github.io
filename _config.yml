@@ -1,0 +1,19 @@
+# Site settings
+title: Ben Scott
+email: ben@benscott.co.uk
+description: > # this means to ignore newlines until "baseurl:"
+  <p>Lead architect of the Natural History Museum's Data Portal.</p>
+  <p>Thoughts on open data, open source, science and music.</p>
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.benscott.co.uk" # the base hostname & protocol for your site
+twitter_username: benjaminscott
+github_username:  benscott
+drupal_id: 149339
+linkedin_id: 9085417
+stackoverflow_username: bens
+
+exclude:
+  - "bower.json"
+
+# Build settings
+markdown: kramdown
