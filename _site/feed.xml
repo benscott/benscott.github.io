@@ -2,38 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ben Scott</title>
-    <description>&lt;p&gt;Some thoughts and ramblings on data, science, music and digital openness.&lt;/p&gt; &lt;p&gt;Currently lead architect of the Natural History Museum&#39;s Data Portal.&lt;/p&gt;
+    <description>&lt;p&gt;Lead architect of the Natural History Museum&#39;s Data Portal.&lt;/p&gt; &lt;p&gt;Thoughts on open data, science, music and politics.&lt;/p&gt;
 </description>
     <link>http://www.benscott.co.uk/</link>
     <atom:link href="http://www.benscott.co.uk/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 19 Oct 2014 21:20:28 +0100</pubDate>
-    <lastBuildDate>Sun, 19 Oct 2014 21:20:28 +0100</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <pubDate>Sun, 01 Feb 2015 17:47:24 +0000</pubDate>
+    <lastBuildDate>Sun, 01 Feb 2015 17:47:24 +0000</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Crowdsourcing the collection - SU2014</title>
-        <description>&lt;figure&gt;
-  &lt;img src=&quot;/assets/beetles.jpg&quot; alt=&quot;The Pulpit Rock&quot; /&gt;
-  &lt;figcaption&gt;&lt;em&gt;Jewel Tones: Green&lt;/em&gt; - Helena Maratheftis&lt;/figcaption&gt;
+        <title>Crowdsourcing the collection</title>
+        <description>&lt;p&gt;Once a year the Natural History Museum hosts &lt;em&gt;Science Uncovered&lt;/em&gt;, an evening celebrating its science and research with visitors.  My team - Biodiversity Informatics - has always taken part but since most of our work is computer-based, we often struggle to find ways of engaging the public with a monitor screen. That becomes even more of a challenge when we’re competing with an entire Museum of exciting science to explore! This year I wanted to try something a bit different.&lt;/p&gt;
+
+&lt;p&gt;One of the Museum’s key challenges is digitising its vast collection and making it available online. The Museum has embarked on an ambitious programme to photograph every one of its 80 million specimens, and transcribe the information on each label (what it is and where/when it was found).  I wanted to tell the story of this huge task, showing visitors the process of taking a specimen from the Museum’s collection, photographing it, copying the labels, and then publishing the information on the new Data Portal.  Each step would happen in real-time and use real specimens, and the public themselves would be asked to transcribe the specimen labels - crowdsourcing performed by a live crowd.  &lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img width=&quot;600&quot; height=&quot;399&quot; src=&quot;/assets/DSC_0710.jpg&quot; title=&quot;Crowdsourcing the collection&quot; /&gt;
+    &lt;figcaption&gt;Crowdsourcing the collection in action.&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;Once a year the Natural History Museum hosts &lt;em&gt;Science Uncovered&lt;/em&gt;, an evening celebration of it’s science and research.  Every year my team - the Biodiversity Informatics Group - takes part. But as most of our work is computer-based, we spend the evening trying to entice people over to look at monitor screens. Not an easy task when visitors have an entire Museum of cutting-edge science to explore. 
-This year I wanted to do something a bit different, and try to find a way to communicate our work in a more engaging way.&lt;/p&gt;
 
-&lt;p&gt;Working with &lt;a href=&quot;https://twitter.com/ivvetm&quot;&gt;Ivvet Modinou&lt;/a&gt; (then the NHM’s Science Communication Manager - now Head of Engagement at the BSA) we came up with the idea of a live digitisation pipeline, showing every step of the process of getting the Museum’s 80 million specimens online.       &lt;/p&gt;
+&lt;p&gt;The Museum’s coleoptersists have been making great efforts digitising their specimens, and have been publishing their &lt;a href=&quot;https://www.flickr.com/photos/nhm_beetle_id/&quot; target=&quot;_blank&quot; title=&quot;NHM Beetles and Bugs&#39; Photostream&quot;&gt;stunning photos on Flickr&lt;/a&gt;.  Many of these images still required transcribing, so they made the perfect seed dataset.  On the night, Museum curators would take more beetle specimens from the collection, photograph and add them to Flickr. To ensure a steady stream of photos flowing through the pipeline, I set up &lt;a href=&quot;https://ifttt.com/&quot; title=&quot;If This Then That&quot; target=&quot;_blank&quot;&gt;IFTTT&lt;/a&gt; to automatically push the new photographs to Flickr.&lt;/p&gt;
 
-&lt;p&gt;It starts with taking a Specimen from the collection&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img width=&quot;600&quot; height=&quot;399&quot; src=&quot;/assets/DSC_0684.jpg&quot; title=&quot;Beetle specimens&quot; /&gt;
+    &lt;figcaption&gt;Curators preparing specimens on the stand for digitisation.&lt;/figcaption&gt;
+&lt;/figure&gt;
 
+&lt;p&gt;The success of the project would rely on the transcription app. It had to pull an image from Flickr, allow members of the public to easily enter information from the label, and then push the data to the Museum data portal.  The app needed a simple and intuitive UI - each member of the public would probably perform just one transcription, so there could be no overhead in learning to use it.  On the night we had 3 iPads running the app, each chaperoned by a member of the informatics team.  We would help visitors decipher the labels, and discuss our work and why digitising the collection is important. The app was also accessible throughout the Museum on visitors’ own devices - we even produced beer mats to encourage people to transcribe a specimen over a drink!&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img width=&quot;600&quot; height=&quot;276&quot; src=&quot;/assets/beer-mat.gif&quot; title=&quot;Transcribe a specimen beer mats&quot; /&gt;
+    &lt;figcaption&gt;&lt;em&gt;Transcribe a specimen&lt;/em&gt; beer mats.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;After evaluating existing free (there was no budget for this) crowdsourcing apps, I decided to build one myself.  The tools avilable were far more complex than we required - with user accounts, leaderboards etc., and a correspondingly complex UI. Few worked well on handhelds (phones especially), and none could consume a live stream of flickr images, instead requiring tasks to be preloaded. Our app is a simple, stripped-back version - it’s little more than an image and multi-step form - and optimised for tablet and phones.  You can &lt;a href=&quot;http://su2014.benscott.co.uk/&quot; title=&quot;Crowdsourcing the collection app&quot; target=&quot;_blank&quot;&gt;try it out here&lt;/a&gt; - and the &lt;a href=&quot;https://github.com/NaturalHistoryMuseum/su2014&quot; target=&quot;_blank&quot;&gt;source code is available on Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img width=&quot;600&quot; height=&quot;399&quot; src=&quot;/assets/DSC_0752.jpg&quot; title=&quot;Visitors using the app to transcribe specimens&quot; /&gt;
+    &lt;figcaption&gt;Visitors using the app to transcribe specimens.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The event itself was a big success.  The public really engaged with our work - so much so that people continued to use the app for days after the event - and we received some excellent feedback.  The app was even demo’d to the Museum’s board of trustees as an example of digital innovation. Though the &lt;a href=&quot;http://data.nhm.ac.uk/dataset/crowdsourcing-the-collection/resource/07555c45-ed3f-4178-83a4-dfa0144e35d2&quot; title=&quot;Crowdsourcing the collection dataset&quot; target=&quot;_blank&quot;&gt;dataset&lt;/a&gt; created is small - we received 162 transcriptions over four hours, peaking at 3 submissions per minute - the accuracy is extremely high.  In a first for Science Uncovered, visitors have made a real and useful contribution to our science.  And, more importantly, learnt and had fun whilst doing so.   &lt;/p&gt;
+
+&lt;p class=&quot;credits&quot;&gt;With thanks to: Ivvet Modinou for developing the idea, Laurence Livermore for helping organise, Libby Livermore for the photos, and members of the Museum Biodiversity Informatics, Coleopterist and Digitisation Teams.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 18 Oct 2014 17:18:38 +0100</pubDate>
-        <link>http://www.benscott.co.uk/crowdsourcing/open-science/natural-history-museum/2014/10/18/2014-10-18-su2014.html</link>
-        <guid isPermaLink="true">http://www.benscott.co.uk/crowdsourcing/open-science/natural-history-museum/2014/10/18/2014-10-18-su2014.html</guid>
+        <pubDate>Tue, 18 Nov 2014 16:18:38 +0000</pubDate>
+        <link>http://www.benscott.co.uk/2014/11/18/crowdsourcing-the-collection.html</link>
+        <guid isPermaLink="true">http://www.benscott.co.uk/2014/11/18/crowdsourcing-the-collection.html</guid>
         
+        <category>Crowdsourcing</category>
         
-        <category>crowdsourcing</category>
+        <category>Citizen science</category>
         
-        <category>open-science</category>
+        <category>Public engagement</category>
         
-        <category>natural-history-museum</category>
         
       </item>
     

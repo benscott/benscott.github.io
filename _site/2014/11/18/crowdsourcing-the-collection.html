@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Crowdsourcing the collection</title>
+    <meta name="description" content="<p>Lead architect of the Natural History Museum's Data Portal.</p> <p>Thoughts on open data, science, music and politics.</p>
+">
+
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <link rel="canonical" href="http://www.benscott.co.uk/2014/11/18/crowdsourcing-the-collection.html">
+</head>
+
+
+<body>
+
+<section id="header">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xs-9">
+                <h3><a class="navbar-brand" href="/">Ben Scott</a></h3>
+
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/">blog</a></li>
+                        <li><a href="/about.html">about</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+            <div class="col-xs-3">
+                <ul class="nav nav-pills">
+                    <li><a target="_blank" href="https://twitter.com/benjaminscott" title=""><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/profile/view?id=9085417" title=""><i class="fa fa-linkedin-square"></i></a></li>
+                    <li><a href="mailto:ben@benscott.co.uk" title=""><i class="fa fa-envelope"></i></a></li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<header style="background-image: url('/assets/beetles.jpg')" id="post-header">
+
+    <div id="post-title">
+
+        <div class="container">
+            <div class="row">
+                <header class="col-sm-12">
+                    <h1 class="post-title">Crowdsourcing the collection</h1>
+
+                    <h2>Building a live digitisation and transcription showcase.</h2>
+
+                </header>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</header>
+
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                <p>Once a year the Natural History Museum hosts <em>Science Uncovered</em>, an evening celebrating its science and research with visitors.  My team - Biodiversity Informatics - has always taken part but since most of our work is computer-based, we often struggle to find ways of engaging the public with a monitor screen. That becomes even more of a challenge when we’re competing with an entire Museum of exciting science to explore! This year I wanted to try something a bit different.</p>
+
+<p>One of the Museum’s key challenges is digitising its vast collection and making it available online. The Museum has embarked on an ambitious programme to photograph every one of its 80 million specimens, and transcribe the information on each label (what it is and where/when it was found).  I wanted to tell the story of this huge task, showing visitors the process of taking a specimen from the Museum’s collection, photographing it, copying the labels, and then publishing the information on the new Data Portal.  Each step would happen in real-time and use real specimens, and the public themselves would be asked to transcribe the specimen labels - crowdsourcing performed by a live crowd.  </p>
+
+<figure>
+    <img width="600" height="399" src="/assets/DSC_0710.jpg" title="Crowdsourcing the collection" />
+    <figcaption>Crowdsourcing the collection in action.</figcaption>
+</figure>
+
+<p>The Museum’s coleoptersists have been making great efforts digitising their specimens, and have been publishing their <a href="https://www.flickr.com/photos/nhm_beetle_id/" target="_blank" title="NHM Beetles and Bugs' Photostream">stunning photos on Flickr</a>.  Many of these images still required transcribing, so they made the perfect seed dataset.  On the night, Museum curators would take more beetle specimens from the collection, photograph and add them to Flickr. To ensure a steady stream of photos flowing through the pipeline, I set up <a href="https://ifttt.com/" title="If This Then That" target="_blank">IFTTT</a> to automatically push the new photographs to Flickr.</p>
+
+<figure>
+    <img width="600" height="399" src="/assets/DSC_0684.jpg" title="Beetle specimens" />
+    <figcaption>Curators preparing specimens on the stand for digitisation.</figcaption>
+</figure>
+
+<p>The success of the project would rely on the transcription app. It had to pull an image from Flickr, allow members of the public to easily enter information from the label, and then push the data to the Museum data portal.  The app needed a simple and intuitive UI - each member of the public would probably perform just one transcription, so there could be no overhead in learning to use it.  On the night we had 3 iPads running the app, each chaperoned by a member of the informatics team.  We would help visitors decipher the labels, and discuss our work and why digitising the collection is important. The app was also accessible throughout the Museum on visitors’ own devices - we even produced beer mats to encourage people to transcribe a specimen over a drink!</p>
+
+<figure>
+    <img width="600" height="276" src="/assets/beer-mat.gif" title="Transcribe a specimen beer mats" />
+    <figcaption><em>Transcribe a specimen</em> beer mats.</figcaption>
+</figure>
+
+<p>After evaluating existing free (there was no budget for this) crowdsourcing apps, I decided to build one myself.  The tools avilable were far more complex than we required - with user accounts, leaderboards etc., and a correspondingly complex UI. Few worked well on handhelds (phones especially), and none could consume a live stream of flickr images, instead requiring tasks to be preloaded. Our app is a simple, stripped-back version - it’s little more than an image and multi-step form - and optimised for tablet and phones.  You can <a href="http://su2014.benscott.co.uk/" title="Crowdsourcing the collection app" target="_blank">try it out here</a> - and the <a href="https://github.com/NaturalHistoryMuseum/su2014" target="_blank">source code is available on Github</a>.</p>
+
+<figure>
+    <img width="600" height="399" src="/assets/DSC_0752.jpg" title="Visitors using the app to transcribe specimens" />
+    <figcaption>Visitors using the app to transcribe specimens.</figcaption>
+</figure>
+
+<p>The event itself was a big success.  The public really engaged with our work - so much so that people continued to use the app for days after the event - and we received some excellent feedback.  The app was even demo’d to the Museum’s board of trustees as an example of digital innovation. Though the <a href="http://data.nhm.ac.uk/dataset/crowdsourcing-the-collection/resource/07555c45-ed3f-4178-83a4-dfa0144e35d2" title="Crowdsourcing the collection dataset" target="_blank">dataset</a> created is small - we received 162 transcriptions over four hours, peaking at 3 submissions per minute - the accuracy is extremely high.  In a first for Science Uncovered, visitors have made a real and useful contribution to our science.  And, more importantly, learnt and had fun whilst doing so.   </p>
+
+<p class="credits">With thanks to: Ivvet Modinou for developing the idea, Laurence Livermore for helping organise, Libby Livermore for the photos, and members of the Museum Biodiversity Informatics, Coleopterist and Digitisation Teams.</p>
+
+            </div>
+            <div class="col-sm-3" id="side-column">
+                <p class="post-meta">18 Nov 2014</p>
+
+                <ul id="tags" class="list-unstyled">
+                    
+                    <li>Crowdsourcing</li>
+                    
+                    <li>Citizen science</li>
+                    
+                    <li>Public engagement</li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+</article>
+
+
+
+
+<footer class="site-footer">
+    <p class="rss-subscribe"> <i class="fa fa-rss"></i> Subscribe <a href="/feed.xml">via RSS</a></p>
+</footer>
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58679595-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+
+</html>

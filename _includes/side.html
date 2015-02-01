@@ -1,81 +1,9 @@
-<div class="panel panel-default">
+<div class="panel">
   <div class="panel-heading">
-    <h3 class="panel-title">About</h3>
+    <h3 class="panel-title">About me</h3>
   </div>
   <div class="panel-body">
     {{ site.description }}
-  </div>
-</div>
-
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Get in touch</h3>
-  </div>
-  <div class="panel-body">
-    <ul class="contact-list">
-      {% if site.twitter_username %}
-      <li>
-        <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}">
-          <i class="fa fa-twitter"></i>
-          <span class="username">@{{ site.twitter_username }}</span>
-        </a>
-      </li>
-      {% endif %}
-
-      {% if site.email %}
-      <li>
-        <a href="mailto:{{ site.email }}">
-          <i class="fa fa-envelope-square"></i>
-          <span class="username">{{ site.email }}</span>
-        </a>
-      </li>
-      {% endif %}
-    </ul>
-  </div>
-</div>
-
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Find out more</h3>
-  </div>
-  <div class="panel-body">
-    <ul class="social-media-list">
-      {% if site.github_username %}
-      <li>
-        <a target="_blank" href="https://github.com/{{ site.github_username }}">
-          <i class="fa fa-github-alt"></i>
-          <span class="username">Github</span>
-        </a>
-      </li>
-      {% endif %}
-
-      {% if site.linkedin_id %}
-      <li>
-        <a target="_blank" href="https://www.linkedin.com/profile/view?id={{ site.linkedin_id }}">
-          <i class="fa fa-linkedin-square"></i>
-          <span class="username">LinkedIn</span>
-        </a>
-      </li>
-      {% endif %}
-
-      {% if site.drupal_id %}
-      <li>
-        <a target="_blank" href="http://drupal.org/user/{{ site.drupal_id }}">
-          <i class="fa fa-drupal"></i>
-          <span class="username">Drupal</span>
-        </a>
-      </li>
-      {% endif %}
-
-      {% if site.stackoverflow_username %}
-      <li>
-        <a target="_blank" href="http://careers.stackoverflow.com/{{ site.stackoverflow_username }}">
-          <i class="fa fa-stack-overflow"></i>
-          <span class="username">Stackoverflow</span>
-        </a>
-      </li>
-      {% endif %}
-
-    </ul>
+    <p class="pull-right"><a href="/about.html">Find out more <i class="fa fa-angle-double-right"></i></a></p>
   </div>
 </div>
