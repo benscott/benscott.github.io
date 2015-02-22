@@ -47,6 +47,15 @@ p{
   max-width: 900px!important;
 }
 
+a{
+  &:visited{
+    color: #2a7ae2;
+  }
+  &:hover{
+    color: #1756a9;
+  }
+}
+
 #header{
 
   border-bottom: 1px solid $grey-color-light;
@@ -159,13 +168,16 @@ p{
 
 
   li {
-    font-size: 12px;
-    background: $grey-color-xlight;
-    display: inline-block;
-    margin: 5px;
-    padding: 5px 8px;
-    border-radius: 5px;
 
+    margin: 5px;
+
+    span {
+      font-size: 12px;
+      background: $grey-color-xlight;
+      display: inline-block;
+      padding: 5px 8px;
+      border-radius: 5px;
+    }
   }
 }
 

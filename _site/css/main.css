@@ -335,6 +335,11 @@ p {
 .container {
   max-width: 900px !important; }
 
+a:visited {
+  color: #2a7ae2; }
+a:hover {
+  color: #1756a9; }
+
 #header {
   border-bottom: 1px solid #e8e8e8;
   margin-bottom: 30px; }
@@ -397,12 +402,13 @@ p {
     font-size: 16px; }
 
 #tags li {
-  font-size: 12px;
-  background: whitesmoke;
-  display: inline-block;
-  margin: 5px;
-  padding: 5px 8px;
-  border-radius: 5px; }
+  margin: 5px; }
+  #tags li span {
+    font-size: 12px;
+    background: whitesmoke;
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 5px; }
 
 .site-footer {
   background: none; }
