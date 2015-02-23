@@ -31,7 +31,7 @@ Parse the data, upload it into CartoDB, and we had an interactive map showing si
 
 There were some interesting discoveries - the <a href="http://www.wwww.rspb.org.uk/discoverandenjoynature/seenature/datewithnature/146957-peregrines-at-the-tate-modern">Peregrine Falcons at the Tate Modern</a> were new to me, but clearly represented in the dataset.
 
-To finish, we wanted to map the change in occurrences through time.  Displaying fewer species worked better visually, so we created another visualisation showing bat species sightings since 1900.
+To finish, we wanted to map the change in occurrences through time.  Displaying fewer species worked better visually, so we created another map showing bat species sightings since 1900.
 
 <a href="/opendataday/bats.html" target="_blank">
     <img src="/assets/140222-bats-map.jpg" title="London National Park Bats since 1900" />
