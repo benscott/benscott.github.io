@@ -3,7 +3,7 @@ layout: post
 title:  "Crowdsourcing the collection"
 subtitle:  "Building a live digitisation and transcription showcase"
 image:  /assets/beetles.jpg
-date:   2014-1-18 16:18:38
+date:   2015-1-18 16:18:38
 tags:
 - Crowdsourcing
 - Citizen science

@@ -3,7 +3,7 @@ layout: post
 title:  "Open Data Day Hackathon"
 subtitle:  "Mapping species in the Greater London National Park"
 image:  /assets/bats.jpg
-date:   2014-02-22 16:18:38
+date:   2015-02-22 16:18:38
 tags:
 - Open Data
 - Hackathon
