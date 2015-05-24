@@ -6,9 +6,35 @@
 </description>
     <link>http://www.benscott.co.uk/</link>
     <atom:link href="http://www.benscott.co.uk/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 22 Feb 2015 20:21:58 +0000</pubDate>
-    <lastBuildDate>Sun, 22 Feb 2015 20:21:58 +0000</lastBuildDate>
+    <pubDate>Sun, 24 May 2015 17:12:52 +0100</pubDate>
+    <lastBuildDate>Sun, 24 May 2015 17:12:52 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Science Uncovered</title>
+        <description>&lt;p&gt;Building the NHM London Data Portal&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+        <link>http://www.benscott.co.uk/portfolio.html#science-uncovered</link>
+        <guid isPermaLink="true">http://www.benscott.co.uk/portfolio.html#science-uncovered</guid>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>Natural History Museum Data Portal</title>
+        <description>&lt;p&gt;Building the NHM London Data Portal&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+        <link>http://www.benscott.co.uk/portfolio.html#natural-history-museum-data-portal</link>
+        <guid isPermaLink="true">http://www.benscott.co.uk/portfolio.html#natural-history-museum-data-portal</guid>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
     
       <item>
         <title>Open Data Day Hackathon</title>
@@ -28,7 +54,7 @@
 
 &lt;p&gt;There were some interesting discoveries - the &lt;a href=&quot;http://www.wwww.rspb.org.uk/discoverandenjoynature/seenature/datewithnature/146957-peregrines-at-the-tate-modern&quot;&gt;Peregrine Falcons at the Tate Modern&lt;/a&gt; were new to me, but clearly represented in the dataset.&lt;/p&gt;
 
-&lt;p&gt;To finish, we wanted to map the change in occurrences through time.  Displaying fewer species worked better visually, so we created another visualisation showing bat species sightings since 1900.&lt;/p&gt;
+&lt;p&gt;To finish, we wanted to map the change in occurrences through time.  Displaying fewer species worked better visually, so we created another map showing bat species sightings since 1900.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/opendataday/bats.html&quot; target=&quot;_blank&quot;&gt;
     &lt;img src=&quot;/assets/140222-bats-map.jpg&quot; title=&quot;London National Park Bats since 1900&quot; /&gt;
@@ -37,9 +63,9 @@
 &lt;p&gt;The maps and data aren’t perfect.  The London shape geometry we used to query against needs refining, so some occurrences fall beyond the boundaries of the proposed park.  But we produced a really satisfying result for a such short hackathon - and had great fun doing so. Thanks to everyone involved, and especially Team Nature!&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 22 Feb 2014 16:18:38 +0000</pubDate>
-        <link>http://www.benscott.co.uk/2014/02/22/open-data-day.html</link>
-        <guid isPermaLink="true">http://www.benscott.co.uk/2014/02/22/open-data-day.html</guid>
+        <pubDate>Sun, 22 Feb 2015 16:18:38 +0000</pubDate>
+        <link>http://www.benscott.co.uk/blog/open-data-day.html</link>
+        <guid isPermaLink="true">http://www.benscott.co.uk/blog/open-data-day.html</guid>
         
         <category>Open Data</category>
         
@@ -49,6 +75,8 @@
         
         <category>Geospatial</category>
         
+        
+        <category>blog</category>
         
       </item>
     
@@ -88,9 +116,9 @@
 
 &lt;p class=&quot;credits&quot;&gt;With thanks to: Ivvet Modinou for developing the idea, Laurence Livermore for helping organise, Libby Livermore for the photos, and members of the Museum Biodiversity Informatics, Coleopterist and Digitisation Teams.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 18 Jan 2014 16:18:38 +0000</pubDate>
-        <link>http://www.benscott.co.uk/2014/01/18/crowdsourcing-the-collection.html</link>
-        <guid isPermaLink="true">http://www.benscott.co.uk/2014/01/18/crowdsourcing-the-collection.html</guid>
+        <pubDate>Sun, 18 Jan 2015 16:18:38 +0000</pubDate>
+        <link>http://www.benscott.co.uk/blog/crowdsourcing-the-collection.html</link>
+        <guid isPermaLink="true">http://www.benscott.co.uk/blog/crowdsourcing-the-collection.html</guid>
         
         <category>Crowdsourcing</category>
         
@@ -98,6 +126,8 @@
         
         <category>Public engagement</category>
         
+        
+        <category>blog</category>
         
       </item>
     

@@ -1,0 +1,46 @@
+---
+layout: default
+title: Portfolio
+palette: "YlOrRd"
+---
+
+<div class="container" id="portfolio">
+
+    {% assign posts = site.categories.portfolio %}
+
+    {% for post in posts %}
+        <div class="row" id="{{ post.url | replace:'/portfolio.html#','' }}">
+            <div class="col-sm-6 screenshot">
+
+                {% if post.website %}
+                    <a target="_blank" class="external-image" href="http://{{ post.website }}">
+                        <img src="{{ post.screenshot }}" alt="{{ post.title }}">
+                    </a>
+                {% else %}
+                    <img src="{{ post.screenshot }}" alt="{{ post.title }}">
+                {% endif %}
+
+            </div>
+
+            <div class="col-sm-6">
+                <h2>{{ post.title }}</h2>
+
+                {{ post.content }}
+
+                {% if post.website %}
+                    <p><a target="_blank" class="external" href="http://{{ post.website }}">{{ post.website }}</a></p>
+                {% endif %}
+
+                <ul class="list-inline tags">
+                    {% for technology in post.technology %}
+                    <li class="label label-default"><span>{{ technology }}</span></li>
+                    {% endfor %}
+                </ul>
+
+            </div>
+
+        </div>
+
+    {% endfor %}
+
+</div>
