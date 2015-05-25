@@ -9,7 +9,6 @@ home: false
 technology:
 - Drupal
 - PHP
-- VRE
 - Open Science
 ---
 
