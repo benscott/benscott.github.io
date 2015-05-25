@@ -1,13 +1,30 @@
 ---
 layout: default
 title: Blog
-palette: "YlGnBu"
 ---
 
-<div class="container" id="about">
-    <div class="row">
-        <div class="col-sm-12">
+<div class="container" id="blog">
+
+    {% assign posts = site.categories.blog %}
+
+    {% for post in posts %}
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 col-xs-12">
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} </span>
+                <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                <h3>{{ post.subtitle }}</h3>
+
+
+                {{ post.excerpt }}
+
+
+
+            </div>
+            <div class="col-sm-2"></div>
 
         </div>
-    </div>
+
+    {% endfor %}
+
 </div>

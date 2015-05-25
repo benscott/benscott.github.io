@@ -23,11 +23,6 @@ permalink: none
 defaults:
   -
     scope:
-      path: ""
-    values:
-      palette: "YlGnBu"
-  -
-    scope:
       path: "portfolio"
     values:
       categories: "portfolio"
@@ -36,8 +31,8 @@ defaults:
     scope:
       path: "_posts/portfolio"
     values:
-      palette: "YlGnBu"
       categories: "portfolio"
+      home: "true"
   -
     scope:
       path: "blog"
@@ -48,6 +43,5 @@ defaults:
     scope:
       path: "_posts/blog"
     values:
-      palette: "Spectral"
       home: "true"
       layout: "blog"

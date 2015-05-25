@@ -1,10 +1,10 @@
 ---
 title:  "Science Uncovered"
 subtitle:  "App for crowdsourcing the collection"
-thumbnail: /assets/images/thumbnails/su2014.jpg
 screenshot: /assets/images/portfolio/su2014.jpg
 website: su2014.benscott.co.uk
-date:   2015-12-01
+date:   2014-09-30
+home: "false"
 technology:
 - AngularJS
 - NodeJS
@@ -12,4 +12,6 @@ technology:
 - ExpressJS
 ---
 
-Building the NHM London Data Portal
+Transcription app built for Science Uncovered 2014. At this live event, members of the public could have a go at transcribing our specimen labels.
+
+It's designed to be quick and intuitive to use, so our time could be spent explaining the science (or rather the handwriting).

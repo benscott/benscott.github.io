@@ -138,6 +138,7 @@ a{
 header{
 
   height: 100px;
+  margin-bottom: 30px;
 
   h1, h2{
     margin: 0;
@@ -176,18 +177,19 @@ header.large-header{
 
   height: 300px;
   overflow: hidden;
+  margin-bottom: 0;
 
-  h1, h2, p{
-    line-height: 60px!important;
+  h1{
+    line-height: 70px!important;
+  }
+
+  p{
+    margin-top: 40px;
+    font-size: 16px;
   }
 
   h2{
     font-size: 30px;
-  }
-
-  p{
-    font-size: 16px;
-    margin-top: 15px;
   }
 
   .row {
@@ -199,11 +201,13 @@ header.large-header{
 #home{
   background: #ECECEC;
   margin: 0;
+  padding: 15px 0;
 }
 
 .block{
 
-  margin: 20px 0;
+  margin: 15px 0;
+  height: 240px;
 
 
   .post-meta{
@@ -229,20 +233,22 @@ header.large-header{
 
   }
 
-
 }
 
 #portfolio{
   .row{
-    margin-top: 50px;
     margin-bottom: 50px;
     h2{
       font-size: 26px;
     }
-    .screenshot{
-      img{
-        border: 1px solid #ccc;
-      }
+  }
+}
+
+#blog{
+  .row{
+    margin-bottom: 10px;
+    h2{
+      font-size: 26px;
     }
   }
 }
@@ -259,7 +265,6 @@ header.large-header{
     content: "\f08e";
     font-size: 50px;
     color: #222;
-    opacity: 0.5;
   }
 }
 
@@ -274,3 +279,71 @@ header.large-header{
     opacity: 0.5;
   }
 
+.label {
+  background-color: $grey-color-xlight;
+  color: inherit;
+  font-weight: normal;
+}
+
+#post-meta{
+  text-align: center;
+
+  ul{
+    width: 100px;
+    margin: 20px auto;
+
+    li{
+      margin: 5px 0;
+      display: inline-block;
+    }
+  }
+}
+
+article{
+  padding: 0;
+  h2{
+    font-size: 36px;
+  }
+
+  h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+iframe{
+  border: none;
+}
+
+footer{
+  background: #333!important;
+  color: #fff;
+  padding: 30px 0 15px 0!important;
+  a{
+    color: #fff!important;
+    text-decoration: underline;
+    &:hover{
+      text-decoration: none!important;
+    }
+  }
+
+  .nav {
+    text-align: center;
+    float: none;
+    li {
+      float: none;
+      display: inline;
+
+      a {
+        padding: 0 5px;
+        display: inline;
+        &:hover{
+          background: none;
+        }
+      }
+
+    }
+  }
+
+
+}

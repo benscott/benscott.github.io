@@ -9,7 +9,7 @@ $(function() {
     var pattern = Trianglify({
         width: window.innerWidth,
         height: height,
-        x_colors: $header.data('palette')
+        x_colors: "YlGnBu"
     });
     $header.append(pattern.canvas())
 });

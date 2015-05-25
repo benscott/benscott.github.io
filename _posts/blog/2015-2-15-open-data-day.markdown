@@ -25,7 +25,7 @@ We then queried each of these species names against the <a target="_blank" rel="
 Parse the data, upload it into CartoDB, and we had an interactive map showing sightings within the park.     
 
 <a href="/opendataday/species.html" target="_blank">
-    <img src="/assets/140222-specimen-map.jpg" title="London National Park Specimen Map" />
+    <img src="/assets/images/posts/140222-specimen-map.jpg" title="London National Park Specimen Map" />
 </a>
 
 There were some interesting discoveries - the <a href="http://www.wwww.rspb.org.uk/discoverandenjoynature/seenature/datewithnature/146957-peregrines-at-the-tate-modern">Peregrine Falcons at the Tate Modern</a> were new to me, but clearly represented in the dataset.
@@ -33,7 +33,7 @@ There were some interesting discoveries - the <a href="http://www.wwww.rspb.org.
 To finish, we wanted to map the change in occurrences through time.  Displaying fewer species worked better visually, so we created another map showing bat species sightings since 1900.
 
 <a href="/opendataday/bats.html" target="_blank">
-    <img src="/assets/140222-bats-map.jpg" title="London National Park Bats since 1900" />
+    <img src="/assets/images/posts/140222-bats-map.jpg" title="London National Park Bats since 1900" />
 </a>
 
 The maps and data aren't perfect.  The London shape geometry we used to query against needs refining, so some occurrences fall beyond the boundaries of the proposed park.  But we produced a really satisfying result for a such short hackathon - and had great fun doing so. Thanks to everyone involved, and especially Team Nature!

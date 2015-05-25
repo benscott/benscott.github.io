@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
 
     <link rel="canonical" href="http://www.benscott.co.uk/">
 
@@ -31,10 +31,10 @@
 
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="/portfolio.html">Portfolio</a></li>
-                        <li><a href="/blog.html">Blog</a></li>
-                        <li><a href="/cv.html">CV</a></li>
-                    </ul>
+    <li><a href="/portfolio.html">Portfolio</a></li>
+    <li><a href="/blog.html">Blog</a></li>
+    <!--<li><a href="/cv.html">CV</a></li>-->
+</ul>
                 </div>
                 <!--/.nav-collapse -->
             </div>
@@ -52,13 +52,13 @@
 
 </section>
 
-<header class="large-header" data-palette="YlGnBu">
+<header class="large-header">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1>Full <abbr title="Python, Drupal, Django, PHP, NodeJS, AngularJS, Postgres, MongoDB, Neo4J.">stack</abbr> developer</h1>
+                <h1>Full <abbr title="Python, Drupal, Django, PHP, NodeJS, AngularJS, Postgres, MongoDB, Neo4J, BackboneJS.">stack</abbr> developer</h1>
                 <h2>and open data architect</h2>
-                <p>Over 12 years experience building websites and visualisations.</p>
+                <p>Over 12 years experience building <a title="Web development" href="portfolio.html">websites</a>, <a title="Launching startups" href="portfolio.html#richseam">launching startups</a> and leading agile development teams.</p>
             </div>
         </div>
     </div>
@@ -75,14 +75,28 @@
             
             <div class="col-sm-4 block">
                 <div>
-                    <span class="post-meta">Dec 1, 2015 | <a href="/portfolio.html">portfolio</a></span>
+                    <span class="post-meta">May 25, 2015 | <a href="/blog.html">blog</a></span>
                     <h3>
-                        <a href="/portfolio.html#natural-history-museum-data-portal">Natural History Museum Data Portal</a>
+                        <a href="/blog/gbif-globe.html">GBIF Globe</a>
                     </h3>
-                    <p>Open Data Portal for Natural History Museum.</p>
+                    <p>Overlaying GBIF occurrence data tiles onto WebGL Earth.</p>
                 </div>
-                <a width="270" height="120" class="image" title="Natural History Museum Data Portal" href="/portfolio.html#natural-history-museum-data-portal">
-                    <img src="/assets/images/thumbnails/nhm.jpg" alt="Natural History Museum Data Portal">
+                <a width="270" height="120" class="image" title="GBIF Globe" href="/blog/gbif-globe.html">
+                    <img src="/assets/images/thumbnails/globe.jpg" alt="GBIF Globe">
+                </a>
+
+            </div>
+            
+            <div class="col-sm-4 block">
+                <div>
+                    <span class="post-meta">May 1, 2015 | <a href="/portfolio.html">portfolio</a></span>
+                    <h3>
+                        <a href="/portfolio.html#mp-report-card">MP Report Card</a>
+                    </h3>
+                    <p>Using Open Data to evaluate an MPs performance.</p>
+                </div>
+                <a width="270" height="120" class="image" title="MP Report Card" href="/portfolio.html#mp-report-card">
+                    <img src="/assets/images/thumbnails/mp.jpg" alt="MP Report Card">
                 </a>
 
             </div>
@@ -115,6 +129,34 @@
 
             </div>
             
+            <div class="col-sm-4 block">
+                <div>
+                    <span class="post-meta">Dec 15, 2014 | <a href="/portfolio.html">portfolio</a></span>
+                    <h3>
+                        <a href="/portfolio.html#natural-history-museum-data-portal">Natural History Museum Data Portal</a>
+                    </h3>
+                    <p>Open Data Portal for Natural History Museum.</p>
+                </div>
+                <a width="270" height="120" class="image" title="Natural History Museum Data Portal" href="/portfolio.html#natural-history-museum-data-portal">
+                    <img src="/assets/images/thumbnails/nhm.jpg" alt="Natural History Museum Data Portal">
+                </a>
+
+            </div>
+            
+            <div class="col-sm-4 block">
+                <div>
+                    <span class="post-meta">Jan 1, 2013 | <a href="/portfolio.html">portfolio</a></span>
+                    <h3>
+                        <a href="/portfolio.html#richseam">Richseam</a>
+                    </h3>
+                    <p>Co-founder of Richseam music recommendation engine.</p>
+                </div>
+                <a width="270" height="120" class="image" title="Richseam" href="/portfolio.html#richseam">
+                    <img src="/assets/images/thumbnails/richseam.jpg" alt="Richseam">
+                </a>
+
+            </div>
+            
         </div>
     </div>
 
@@ -124,17 +166,41 @@
 
 
 <footer class="site-footer">
-    <p class="rss-subscribe"> <i class="fa fa-rss"></i> Subscribe <a href="/feed.xml">via RSS</a></p>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xs-4">
+                <p class="rss-subscribe"><i class="fa fa-rss"></i> Subscribe <a href="/feed.xml">via RSS</a></p>
+            </div>
+            <div class="col-xs-4">
+                <ul class="nav navbar-nav">
+    <li><a href="/portfolio.html">Portfolio</a></li>
+    <li><a href="/blog.html">Blog</a></li>
+    <!--<li><a href="/cv.html">CV</a></li>-->
+</ul>
+             </div>
+            <div class="col-xs-4">
+                <p>Header shapes by <a target="_blank" href="https://github.com/qrohlf/trianglify">trianglify</a></p>
+            </div>
+        </div>
+    </div>
 </footer>
 
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-58679595-1', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-58679595-1', 'auto');
+    ga('send', 'pageview');
 
 </script>
 
