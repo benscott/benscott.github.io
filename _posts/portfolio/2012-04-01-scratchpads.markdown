@@ -15,4 +15,4 @@ technology:
 
 A drupal-based open science and virtual research platform.
  
-Based at the Natural History Museum, scratchpads allow scientists around the world to collaborate on and share their taxonomic research. 
+Based at the Natural History Museum, scratchpads allow scientists around the world to collaborate and share their taxonomic research. 
