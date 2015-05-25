@@ -1,0 +1,349 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+$base-font-size:   14px;
+$small-font-size:  $base-font-size * 0.875;
+$xsmall-font-size:  $base-font-size * 0.75;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #000;
+$background-color: #fff;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-xlight: lighten($grey-color, 45%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+"base",
+"layout",
+"syntax-highlighting"
+;
+
+h3{
+  font-size: 16px;
+}
+
+p{
+  margin-bottom: 20px;
+}
+
+.container{
+  max-width: 900px!important;
+}
+
+a{
+  color: #2A98C0;
+  &:visited{
+    color: #2A98C0;
+  }
+  &:hover{
+    color: #1962A8;
+  }
+}
+
+#header{
+
+  font-size: 18px;
+  background: #fff;
+
+  h3 .navbar-brand{
+    font-size: 24px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  a{
+    color: $text-color;
+  }
+
+  .nav-pills li{
+    padding: 5px;
+
+    a {
+
+      background: none!important;
+      border: 1px solid #fff;
+      padding: 0;
+      border-radius: 19px;
+      width: 38px;
+      height: 38px;
+      text-align: center;
+      line-height: 38px;
+
+      &:hover{
+        border-color: $grey-color-light;
+        background: none;
+      }
+
+      i.fa-envelope {
+
+        &:before {
+          font-size: 14px;
+        }
+
+        position: relative;
+        top: -2px;
+      }
+
+    }
+
+
+  }
+
+  .navbar-nav{
+
+    margin-left: 20px;
+
+    a{
+      padding: 0 15px 2px 15px;
+      margin-right: 5px;
+      line-height: 32px;
+      color: $grey-color;
+      border: 1px solid #fff;
+      border-radius: 19px;
+
+
+      &:hover{
+        background: #fff;
+        border-color: $grey-color-light;
+
+      }
+
+    }
+
+  }
+}
+
+header{
+
+  height: 100px;
+  margin-bottom: 30px;
+
+  h1, h2{
+    margin: 0;
+  }
+
+  .container{
+    position: relative;
+
+    .row{
+      position: absolute;
+      top: 0;
+      width: 100%;
+      text-align: center;
+      color: #fff;
+
+      h1{
+        font-size: 50px;
+        line-height: 100px;
+      }
+
+      a{
+        color: #fff;
+        font-weight: lighter;
+      }
+
+      abbr{
+        border-bottom: none;
+      }
+
+    }
+  }
+
+}
+
+header.large-header{
+
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 0;
+
+  h1{
+    line-height: 70px!important;
+  }
+
+  p{
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  .row {
+    padding-top: 60px;
+  }
+
+}
+
+#home{
+  background: #ECECEC;
+  margin: 0;
+  padding: 15px 0;
+}
+
+.block{
+
+  margin: 15px 0;
+  height: 240px;
+
+
+  .post-meta{
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  div {
+    background: #fff;
+    height: 120px;
+    overflow: hidden;
+    padding: 5px 10px 10px 10px;
+    h3{
+      margin: 10px 0 4px 0;
+    }
+    a {
+      text-decoration: none;
+    }
+    p{
+      margin: 0;
+    }
+
+
+  }
+
+}
+
+#portfolio{
+  .row{
+    margin-bottom: 50px;
+    h2{
+      font-size: 26px;
+    }
+  }
+}
+
+#blog{
+  .row{
+    margin-bottom: 10px;
+    h2{
+      font-size: 26px;
+    }
+  }
+}
+
+.external-image{
+  position: relative;
+  display: block;
+  &:hover:before{
+    position:absolute;
+    font-family: FontAwesome;
+    top:50%;
+    left:50%;
+    margin: -40px 0 0 -25px;
+    content: "\f08e";
+    font-size: 50px;
+    color: #222;
+  }
+}
+
+.external:after{
+    font-family: FontAwesome;
+    content: "\f08e";
+    color: #222;
+    padding-left: 4px;
+    font-size: 10px;
+    position: relative;
+    top: -3px;
+    opacity: 0.5;
+  }
+
+.label {
+  background-color: $grey-color-xlight;
+  color: inherit;
+  font-weight: normal;
+}
+
+#post-meta{
+  text-align: center;
+
+  ul{
+    width: 100px;
+    margin: 20px auto;
+
+    li{
+      margin: 5px 0;
+      display: inline-block;
+    }
+  }
+}
+
+article{
+  padding: 0;
+  h2{
+    font-size: 36px;
+  }
+
+  h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+iframe{
+  border: none;
+}
+
+footer{
+  background: #333!important;
+  color: #fff;
+  padding: 30px 0 15px 0!important;
+  a{
+    color: #fff!important;
+    text-decoration: underline;
+    &:hover{
+      text-decoration: none!important;
+    }
+  }
+
+  .nav {
+    text-align: center;
+    float: none;
+    li {
+      float: none;
+      display: inline;
+
+      a {
+        padding: 0 5px;
+        display: inline;
+        &:hover{
+          background: none;
+        }
+      }
+
+    }
+  }
+
+
+}

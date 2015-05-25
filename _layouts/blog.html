@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                <h2>{{ page.title }}</h2>
+                <h3>{{ page.subtitle }}</h3>
+                {{ content }}
+            </div>
+            <div class="col-sm-3" id="post-meta">
+                <p class="post-meta">{{ page.date | date: "%-d %b %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+
+                <ul class="list-unstyled">
+                    {% for tag in page.tags %}
+                    <li class="label"><span>{{ tag }}</span></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</article>
+
+

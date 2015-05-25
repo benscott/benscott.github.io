@@ -17,3 +17,31 @@ exclude:
 
 # Build settings
 markdown: kramdown
+
+permalink: none
+
+defaults:
+  -
+    scope:
+      path: "portfolio"
+    values:
+      categories: "portfolio"
+      permalink: /portfolio.html#:title
+  -
+    scope:
+      path: "_posts/portfolio"
+    values:
+      categories: "portfolio"
+      home: "true"
+  -
+    scope:
+      path: "blog"
+    values:
+      categories: "blog"
+      layout: "blog"
+  -
+    scope:
+      path: "_posts/blog"
+    values:
+      home: "true"
+      layout: "blog"

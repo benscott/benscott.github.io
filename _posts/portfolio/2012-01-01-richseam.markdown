@@ -1,0 +1,17 @@
+---
+title:  "Richseam"
+subtitle:  "Co-founder of Richseam music recommendation engine"
+thumbnail: /assets/images/thumbnails/richseam.jpg
+screenshot: /assets/images/portfolio/richseam.jpg
+website: richseam.com
+date:   2013-01-01
+technology:
+- Neo4j
+- Python
+- Drupal
+- Open Data
+---
+
+I was co-founder and developer of Richseam, a music recommendation engine using real connections between artists. Artists work with those who inspire them, bands share members, musicians produce and tour together.
+   
+We mined a variety of open data sources to graph two million relationships between 170,000 musicians. The site was listed as a top-50 startup at the 2013 Pioneers festival.
