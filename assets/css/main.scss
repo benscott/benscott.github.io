@@ -253,21 +253,6 @@ header.large-header{
   }
 }
 
-.external-image{
-  position: relative;
-  display: block;
-  &:hover:before{
-    position:absolute;
-    font-family: FontAwesome;
-    top:50%;
-    left:50%;
-    margin: -40px 0 0 -25px;
-    content: "\f08e";
-    font-size: 50px;
-    color: #222;
-  }
-}
-
 .external:after{
     font-family: FontAwesome;
     content: "\f08e";
