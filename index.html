@@ -23,11 +23,18 @@ layout: base
             {% assign posts = (site.posts | where: "home" , "true") %}
 
             {% for post in posts %}
+
+            {% if post.categories contains "portfolio" %}
+                {% assign url = 'portfolio.html#' | append: post.title | replace:' ','-' | downcase %}
+            {% else %}
+                {% assign url = post.url | prepend: site.baseurl %}
+            {% endif %}
+
             <div class="col-sm-4 block">
                 <div>
                     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} | <a href="/{{ post.categories }}.html">{{ post.categories }}</a></span>
                     <h3>
-                        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                        <a href="{{ url }}">{{ post.title }}</a>
                     </h3>
                     <p>{{ post.subtitle }}.</p>
                 </div>

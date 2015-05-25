@@ -8,7 +8,7 @@ title: Portfolio
     {% assign posts = site.categories.portfolio %}
 
     {% for post in posts %}
-        <div class="row" id="{{ post.url | replace:'/portfolio.html#','' }}">
+        <div class="row" id="{{ post.title | replace:' ','-' | downcase }}">
             <div class="col-sm-6 screenshot">
 
                 {% if post.website %}
