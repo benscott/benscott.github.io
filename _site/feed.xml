@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ben Scott</title>
-    <description>&lt;p&gt;Lead architect of the Natural History Museum&#39;s Data Portal.&lt;/p&gt; &lt;p&gt;Thoughts on open data, open source, science and music.&lt;/p&gt;
+    <description>Ben Scott - Full stack developer - Drupal, Python &amp; Front end.  Lead architect of the Natural History Museum&#39;s Data Portal.
 </description>
     <link>http://www.benscott.co.uk/</link>
     <atom:link href="http://www.benscott.co.uk/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 25 May 2015 23:09:54 +0100</pubDate>
-    <lastBuildDate>Mon, 25 May 2015 23:09:54 +0100</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Sun, 15 Nov 2015 20:11:25 +0000</pubDate>
+    <lastBuildDate>Sun, 15 Nov 2015 20:11:25 +0000</lastBuildDate>
+    <generator>Jekyll v3.0.0</generator>
     
       <item>
         <title>GBIF Globe</title>
@@ -58,9 +58,9 @@
 
 &lt;p&gt;To start, we extracted a list of protected species from the Greater London Authority’s &lt;a target=&quot;_blank&quot; rel=&quot;nofollow&quot; href=&quot;http://legacy.london.gov.uk/mayor/environment/biodiversity/docs/protected_species_in_london.pdf&quot;&gt;Protected Species Report&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;We then queried each of these species names against the &lt;a target=&quot;_blank&quot; rel=&quot;nofollow&quot; href=&quot;http://data.nhm.ac.uk/&quot;&gt;Natural History Museum’s Data Portal&lt;/a&gt; and &lt;a target=&quot;_blank&quot; rel=&quot;nofollow&quot; href=&quot;http://www.gbif.org/&quot;&gt;Global Biodiversity Information Facility&lt;/a&gt; APIs, to find occurrences within the boundaries of the proposed London National Park. &lt;/p&gt;
+&lt;p&gt;We then queried each of these species names against the &lt;a target=&quot;_blank&quot; rel=&quot;nofollow&quot; href=&quot;http://data.nhm.ac.uk/&quot;&gt;Natural History Museum’s Data Portal&lt;/a&gt; and &lt;a target=&quot;_blank&quot; rel=&quot;nofollow&quot; href=&quot;http://www.gbif.org/&quot;&gt;Global Biodiversity Information Facility&lt;/a&gt; APIs, to find occurrences within the boundaries of the proposed London National Park.&lt;/p&gt;
 
-&lt;p&gt;Parse the data, upload it into CartoDB, and we had an interactive map showing sightings within the park.     &lt;/p&gt;
+&lt;p&gt;Parse the data, upload it into CartoDB, and we had an interactive map showing sightings within the park.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/opendataday/species.html&quot; target=&quot;_blank&quot;&gt;
     &lt;img src=&quot;/assets/images/posts/140222-specimen-map.jpg&quot; title=&quot;London National Park Specimen Map&quot; /&gt;
@@ -98,7 +98,7 @@
         <title>Crowdsourcing the collection</title>
         <description>&lt;p&gt;Once a year the Natural History Museum hosts &lt;em&gt;Science Uncovered&lt;/em&gt;, an evening celebrating its science and research with visitors.  My team - Biodiversity Informatics - has always taken part but since most of our work is computer-based, we often struggle to find ways of engaging the public with a monitor screen. That becomes even more of a challenge when we’re competing with an entire Museum of exciting science to explore! This year I wanted to try something a bit different.&lt;/p&gt;
 
-&lt;p&gt;One of the Museum’s key challenges is digitising its vast collection and making it available online. The Museum has embarked on an ambitious programme to photograph every one of its 80 million specimens, and transcribe the information on each label (what it is and where/when it was found).  I wanted to tell the story of this huge task, showing visitors the process of taking a specimen from the Museum’s collection, photographing it, copying the labels, and then publishing the information on the new Data Portal.  Each step would happen in real-time and use real specimens, and the public themselves would be asked to transcribe the specimen labels - crowdsourcing performed by a live crowd.  &lt;/p&gt;
+&lt;p&gt;One of the Museum’s key challenges is digitising its vast collection and making it available online. The Museum has embarked on an ambitious programme to photograph every one of its 80 million specimens, and transcribe the information on each label (what it is and where/when it was found).  I wanted to tell the story of this huge task, showing visitors the process of taking a specimen from the Museum’s collection, photographing it, copying the labels, and then publishing the information on the new Data Portal.  Each step would happen in real-time and use real specimens, and the public themselves would be asked to transcribe the specimen labels - crowdsourcing performed by a live crowd.&lt;/p&gt;
 
 &lt;figure&gt;
     &lt;img src=&quot;/assets/images/posts/DSC_0710.jpg&quot; title=&quot;Crowdsourcing the collection&quot; /&gt;
@@ -126,7 +126,7 @@
     &lt;figcaption&gt;Visitors using the app to transcribe specimens.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;The event itself was a big success.  The public really engaged with our work - so much so that people continued to use the app for days after the event - and we received some excellent feedback.  The app was even demo’d to the Museum’s board of trustees as an example of digital innovation. Though the &lt;a href=&quot;http://data.nhm.ac.uk/dataset/crowdsourcing-the-collection/resource/07555c45-ed3f-4178-83a4-dfa0144e35d2&quot; title=&quot;Crowdsourcing the collection dataset&quot; target=&quot;_blank&quot;&gt;dataset&lt;/a&gt; created is small - we received 162 transcriptions over four hours, peaking at 3 submissions per minute - the accuracy is extremely high.  In a first for Science Uncovered, visitors have made a real and useful contribution to our science.  And, more importantly, learnt and had fun whilst doing so.   &lt;/p&gt;
+&lt;p&gt;The event itself was a big success.  The public really engaged with our work - so much so that people continued to use the app for days after the event - and we received some excellent feedback.  The app was even demo’d to the Museum’s board of trustees as an example of digital innovation. Though the &lt;a href=&quot;http://data.nhm.ac.uk/dataset/crowdsourcing-the-collection/resource/07555c45-ed3f-4178-83a4-dfa0144e35d2&quot; title=&quot;Crowdsourcing the collection dataset&quot; target=&quot;_blank&quot;&gt;dataset&lt;/a&gt; created is small - we received 162 transcriptions over four hours, peaking at 3 submissions per minute - the accuracy is extremely high.  In a first for Science Uncovered, visitors have made a real and useful contribution to our science.  And, more importantly, learnt and had fun whilst doing so.&lt;/p&gt;
 
 &lt;p class=&quot;credits&quot;&gt;With thanks to: Ivvet Modinou for developing the idea, Laurence Livermore for helping organise, Libby Livermore for the photos, and members of the Museum Biodiversity Informatics, Coleopterist and Digitisation Teams.&lt;/p&gt;
 </description>
@@ -196,7 +196,7 @@
         <title>Scratchpads</title>
         <description>&lt;p&gt;A drupal-based open science and virtual research platform.&lt;/p&gt;
 
-&lt;p&gt;Based at the Natural History Museum, scratchpads allow scientists around the world to collaborate and share their taxonomic research. &lt;/p&gt;
+&lt;p&gt;Based at the Natural History Museum, scratchpads allow scientists around the world to collaborate and share their taxonomic research.&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Apr 2012 00:00:00 +0100</pubDate>
         <link>http://www.benscott.co.uk/portfolio.html#scratchpads</link>

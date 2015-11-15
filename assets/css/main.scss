@@ -332,3 +332,48 @@ footer{
 
 
 }
+
+#cv{
+
+  padding-bottom: 30px;
+
+  h3{
+    margin: 25px 0 10px 0;
+    font-weight: bold;
+  }
+
+  ul{
+    margin: 0;
+    li{
+      margin: 10px 0 0 20px;
+    }
+  }
+
+  p{
+    margin: 10px 0;
+  }
+    h5{
+      font-weight: bold;
+      margin: 15px 0 5px 0;
+    }
+  .col-sm-3{
+    h5{
+      color: #828282;
+      font-weight: normal;
+    }
+  }
+
+  #post-meta{
+    margin-top: 20px;
+    text-align: right;
+    a{
+      font-size: 14px;
+      i{
+        margin: 0 6px 0 0 ;
+      }
+    }
+  }
+
+
+
+}
