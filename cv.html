@@ -8,7 +8,9 @@ color: YlOrRd
     <div class="container">
         <div class="row">
 
-            <div class="print-container">
+            <div class="col-sm-1"></div>
+
+            <div class="col-sm-10 print-container">
 
                 <h1 class="text-center visible-print-block">Ben Scott - Curriculum vitae</h1>
 
@@ -171,10 +173,13 @@ color: YlOrRd
                     <li>Website: <a href="http://benscott.co.uk" target="_blank">benscott.co.uk</a></li>
                 </ul>
 
-                <a target="_blank" href="{{ '/assets/files/cv.pdf' | prepend: site.baseurl }}" download><i class="fa fa-file-pdf-o"></i>Download as PDF</a>
-
+                <div class="text-center">
+                    <a target="_blank" href="{{ '/assets/files/cv.pdf' | prepend: site.baseurl }}" download><i class="fa fa-file-pdf-o"></i> Download as PDF</a>
+                </div>
 
             </div>
+
+            <div class="col-sm-1"></div>
 
         </div>
     </div>
